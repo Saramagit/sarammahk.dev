@@ -32,7 +32,7 @@ const Navigation = () => {
             Portfolio
           </button>
           <div className="hidden md:flex gap-8">
-            {["about", "experience", "skills", "projects", "contact"].map((item) => (
+            {["about", "experience", "skills", "research", "projects", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
