@@ -8,15 +8,15 @@ const Contact = () => {
         <h2 className="text-4xl font-bold text-primary mb-8 text-center">Get in Touch</h2>
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-lg text-foreground/80 mb-8">
-            I'm always interested in hearing about new opportunities, collaborations, or just
-            having a chat about technology. Feel free to reach out!
+            I'm always interested in discussing AI research collaborations, ML engineering opportunities, 
+            or exploring innovative applications of artificial intelligence. Let's connect!
           </p>
           <Button
             size="lg"
             className="bg-gradient-secondary hover:opacity-90 text-lg px-8"
             asChild
           >
-            <a href="mailto:john.anderson@email.com">
+            <a href="mailto:your.email@domain.com">
               <Mail className="mr-2" size={20} />
               Send me an email
             </a>
@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-border">
-            <p className="text-foreground/60">© 2024 John Anderson. All rights reserved.</p>
+            <p className="text-foreground/60">© 2024 Your Name. All rights reserved.</p>
           </div>
         </div>
       </div>

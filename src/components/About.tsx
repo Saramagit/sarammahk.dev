@@ -5,18 +5,19 @@ const About = () => {
         <h2 className="text-4xl font-bold text-primary mb-8 text-center">About Me</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-            I'm a passionate full stack developer with over 5 years of experience building
-            scalable web applications. I specialize in React, Node.js, and cloud technologies,
-            with a keen eye for creating intuitive user experiences.
+            I'm an AI researcher and engineer specializing in deep learning, natural language processing, 
+            and computer vision. My work focuses on developing novel architectures and scalable ML systems 
+            that push the boundaries of what's possible with artificial intelligence.
           </p>
           <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-            My approach combines technical excellence with creative problem-solving. I believe
-            in writing clean, maintainable code and staying current with industry best practices
-            and emerging technologies.
+            With expertise spanning research and production deployment, I bridge the gap between 
+            cutting-edge AI research and real-world applications. I'm passionate about transformer 
+            architectures, multimodal learning, and building efficient inference systems.
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            When I'm not coding, you'll find me contributing to open-source projects, writing
-            technical articles, or exploring new frameworks and tools to expand my skill set.
+            My contributions include published papers in top-tier conferences, open-source ML frameworks, 
+            and production systems serving millions of users. I stay at the forefront of AI advancement 
+            through continuous research and collaboration with leading institutions.
           </p>
         </div>
       </div>

@@ -4,30 +4,30 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "Large Language Model Framework",
+    description: "Open-source framework for efficient training and inference of large language models with custom attention mechanisms.",
+    tech: ["PyTorch", "CUDA", "Triton", "Python"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task management tool with real-time updates, team workspaces, and productivity analytics.",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Socket.io"],
+    title: "Multimodal Vision-Language Model",
+    description: "Research project combining vision transformers with LLMs for image understanding and generation tasks.",
+    tech: ["JAX", "Flax", "Transformers", "Diffusion"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
   {
-    title: "AI Content Generator",
-    description: "AI-powered content generation platform leveraging GPT models for marketing copy and creative writing.",
-    tech: ["React", "Python", "FastAPI", "OpenAI API"],
+    title: "Real-time Object Detection System",
+    description: "Production-ready object detection pipeline using custom YOLOv8 architecture with TensorRT optimization.",
+    tech: ["PyTorch", "TensorRT", "ONNX", "FastAPI"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
   {
-    title: "Weather Dashboard",
-    description: "Beautiful weather dashboard with forecasts, historical data visualization, and location-based alerts.",
-    tech: ["Vue.js", "D3.js", "Express", "Weather API"],
+    title: "Neural Architecture Search Platform",
+    description: "Automated ML platform for discovering optimal neural architectures using evolutionary algorithms and reinforcement learning.",
+    tech: ["PyTorch", "Ray", "MongoDB", "React"],
     github: "https://github.com",
     demo: "https://demo.com"
   }

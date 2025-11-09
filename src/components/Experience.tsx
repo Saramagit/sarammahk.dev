@@ -3,36 +3,36 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
-    description: "Lead development of cloud-native applications using React, Node.js, and AWS. Mentor junior developers and architect scalable solutions.",
+    title: "Senior AI Research Engineer",
+    company: "AI Research Lab",
+    period: "2022 - Present",
+    description: "Leading research on large language models and multimodal AI systems. Publishing in top-tier conferences and deploying models at scale.",
     achievements: [
-      "Reduced application load time by 60% through optimization",
-      "Led team of 5 developers on major platform redesign",
-      "Implemented CI/CD pipeline reducing deployment time by 75%"
+      "Published 3 papers at NeurIPS and ICML on efficient transformers",
+      "Built distributed training pipeline reducing training time by 70%",
+      "Led team developing novel attention mechanism with 40% efficiency gains"
     ]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Solutions Co.",
-    period: "2019 - 2021",
-    description: "Developed and maintained multiple client-facing web applications. Collaborated with design and product teams.",
+    title: "Machine Learning Engineer",
+    company: "Tech Innovation Corp",
+    period: "2020 - 2022",
+    description: "Developed and deployed production ML systems for computer vision and NLP applications serving 10M+ users.",
     achievements: [
-      "Built responsive e-commerce platform handling 10k+ daily users",
-      "Integrated third-party APIs and payment systems",
-      "Improved code coverage from 40% to 85%"
+      "Architected real-time inference system handling 100k requests/sec",
+      "Implemented BERT-based model improving accuracy by 25%",
+      "Optimized model deployment reducing latency from 500ms to 50ms"
     ]
   },
   {
-    title: "Junior Developer",
-    company: "StartUp Ventures",
-    period: "2018 - 2019",
-    description: "Contributed to front-end development of SaaS product. Learned agile methodologies and modern development practices.",
+    title: "AI Research Intern",
+    company: "University AI Lab",
+    period: "2019 - 2020",
+    description: "Conducted research on neural architecture search and automated machine learning under leading AI researchers.",
     achievements: [
-      "Developed reusable component library",
-      "Participated in code reviews and sprint planning",
-      "Assisted in migration from legacy to modern stack"
+      "Co-authored paper on NAS algorithms accepted at CVPR",
+      "Developed PyTorch framework for automated hyperparameter tuning",
+      "Contributed to open-source AutoML library with 2k+ stars"
     ]
   }
 ];
