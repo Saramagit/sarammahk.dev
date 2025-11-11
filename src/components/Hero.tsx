@@ -51,7 +51,7 @@ const Hero = () => {
               onClick={() => scrollToSection("contact")}
               size="lg"
               variant="outline"
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="border-2 border-primary-foreground bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
             >
               Contact Me
             </Button>
