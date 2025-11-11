@@ -4,32 +4,46 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Large Language Model Framework",
-    description: "Open-source framework for efficient training and inference of large language models with custom attention mechanisms.",
-    tech: ["PyTorch", "CUDA", "Triton", "Python"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    title: "Transformer-based Network Intrusion Detection System (TNIDS)",
+    description: "Developed a NIDS optimized for IoT environments, achieving high accuracy and F1 scores by exploring various transformer architectures and classification heads.",
+    tech: ["PyTorch", "Transformers", "Python", "Big Data"],
+    github: "#",
+    demo: "#"
   },
   {
-    title: "Multimodal Vision-Language Model",
-    description: "Research project combining vision transformers with LLMs for image understanding and generation tasks.",
-    tech: ["JAX", "Flax", "Transformers", "Diffusion"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    title: "TNIDS Extension - Heterogeneous Computing Architecture",
+    description: "Extended TNIDS with high-performance AI computing using CPU/GPU heterogeneous architecture for real-time Big Data intrusion detection with improved performance and energy efficiency.",
+    tech: ["PyTorch", "CUDA", "Transformers", "Big Data Analytics"],
+    github: "#",
+    demo: "#"
   },
   {
-    title: "Real-time Object Detection System",
-    description: "Production-ready object detection pipeline using custom YOLOv8 architecture with TensorRT optimization.",
-    tech: ["PyTorch", "TensorRT", "ONNX", "FastAPI"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    title: "Deep Neural Network for Contractor Selection",
+    description: "Implemented DNN at PledgX to analyze multidimensional contractor performance data, improving selection accuracy by 20% through peer group categorization.",
+    tech: ["TensorFlow", "Python", "Pandas", "NumPy"],
+    github: "#",
+    demo: "#"
   },
   {
-    title: "Neural Architecture Search Platform",
-    description: "Automated ML platform for discovering optimal neural architectures using evolutionary algorithms and reinforcement learning.",
-    tech: ["PyTorch", "Ray", "MongoDB", "React"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    title: "Hybrid Recommender System",
+    description: "Developed a hybrid recommender system for PostBeyond specializing in content distribution and employee social sharing.",
+    tech: ["Python", "Scikit-learn", "Matrix Factorization"],
+    github: "#",
+    demo: "#"
+  },
+  {
+    title: "Time Series Prediction for Retail Operations",
+    description: "Machine learning regression model for Hudson's Bay Company resulting in 2% quality increase and 10% cost reduction.",
+    tech: ["Python", "Scikit-learn", "R", "Statistical Analysis"],
+    github: "#",
+    demo: "#"
+  },
+  {
+    title: "Out-of-Distribution Detection Research",
+    description: "Advanced research focused on enhancing model robustness through out-of-distribution detection techniques.",
+    tech: ["PyTorch", "Python", "Deep Learning"],
+    github: "#",
+    demo: "#"
   }
 ];
 

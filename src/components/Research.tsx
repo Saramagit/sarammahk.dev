@@ -6,61 +6,73 @@ import { ExternalLink, FileText, Award } from "lucide-react";
 const Research = () => {
   const publications = [
     {
-      title: "Efficient Attention Mechanisms for Large Language Models",
-      authors: "Your Name, et al.",
-      venue: "NeurIPS 2024",
+      title: "Enhancing the Shopping Experience in E-Commerce: A Path to Improvement–Buy the Best",
+      authors: "Shehmir, S, M Nazar, AA Zaveri, N Sami, R Mashood, N Faisal, A Waqas, et al.",
+      venue: "Bulletin of Social Informatics Theory and Application",
       year: "2024",
-      citations: 45,
-      link: "#",
-      tags: ["LLM", "Attention", "Efficiency"]
+      citations: 0,
+      link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
+      tags: ["E-Commerce", "Recommender Systems", "User Experience"]
     },
     {
-      title: "Multimodal Learning with Vision-Language Transformers",
-      authors: "Your Name, et al.",
-      venue: "CVPR 2024",
-      year: "2024",
-      citations: 32,
-      link: "#",
-      tags: ["Multimodal", "Vision-Language", "Transformers"]
+      title: "A Group Recommender System for Article Recommendation Using Matrix Factorization",
+      authors: "Shehmir, S.",
+      venue: "Toronto Metropolitan University",
+      year: "2021",
+      citations: 0,
+      link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
+      tags: ["Recommender Systems", "Matrix Factorization", "NLP"]
     },
     {
-      title: "Neural Architecture Search for Edge Devices",
-      authors: "Your Name, et al.",
-      venue: "ICML 2023",
-      year: "2023",
-      citations: 78,
+      title: "Transformer-based Network Intrusion Detection System for IoT",
+      authors: "Shehmir, S.",
+      venue: "Research in Progress",
+      year: "2024",
+      citations: 0,
       link: "#",
-      tags: ["NAS", "Edge Computing", "Optimization"]
+      tags: ["Transformers", "Cybersecurity", "IoT", "Deep Learning"]
     }
   ];
 
   const ongoingResearch = [
     {
-      title: "Federated Learning for Privacy-Preserving AI",
-      description: "Developing novel federated learning algorithms that maintain model performance while ensuring differential privacy.",
+      title: "TNIDS Extension: Heterogeneous Computing for Real-Time Intrusion Detection",
+      description: "Building on the Transformer-based Network Intrusion Detection System optimized for IoT, developing high-performance AI architecture using CPU/GPU heterogeneous computing for Big Data processing in real-time. Demonstrated significant improvements in performance, accuracy, and energy efficiency.",
       status: "In Progress",
-      tags: ["Federated Learning", "Privacy", "Distributed Systems"]
+      tags: ["Transformers", "Heterogeneous Computing", "Big Data", "Cybersecurity"]
     },
     {
-      title: "Few-Shot Learning for Domain Adaptation",
-      description: "Exploring meta-learning approaches for rapid adaptation to new domains with limited labeled data.",
+      title: "Out-of-Distribution Detection for Enhanced Model Robustness",
+      description: "Advanced research focused on detecting out-of-distribution samples to enhance model robustness and reliability in real-world AI deployments.",
       status: "In Progress",
-      tags: ["Few-Shot Learning", "Meta-Learning", "Transfer Learning"]
+      tags: ["Out-of-Distribution", "Model Robustness", "Deep Learning"]
+    },
+    {
+      title: "Recommender Systems with Transformers and LLMs",
+      description: "Exploring novel transformer-based architectures and large language models for next-generation recommender systems with improved personalization and explainability.",
+      status: "In Progress",
+      tags: ["Recommender Systems", "LLMs", "Transformers", "Generative AI"]
     }
   ];
 
   const awards = [
     {
-      title: "Best Paper Award",
-      organization: "NeurIPS 2024",
-      year: "2024",
-      description: "Recognition for outstanding research contribution in efficient transformer architectures"
+      title: "PhD Candidate",
+      organization: "Toronto Metropolitan University",
+      year: "2022-2026",
+      description: "Full-time doctoral research in Recommender Systems, Deep Learning, Generative AI, LLMs, and Transformer-Based Models"
     },
     {
-      title: "Outstanding Reviewer",
-      organization: "ICML 2023",
-      year: "2023",
-      description: "Acknowledged for exceptional peer review contributions"
+      title: "MS in Computer Science",
+      organization: "Toronto Metropolitan University",
+      year: "2016-2021",
+      description: "Master's degree with focus on advanced machine learning and artificial intelligence"
+    },
+    {
+      title: "MS in Software Engineering",
+      organization: "Bahria University, Karachi",
+      year: "2011-2013",
+      description: "Master's degree with specialization in software engineering and system design"
     }
   ];
 
@@ -78,7 +90,7 @@ const Research = () => {
           <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="publications">Publications</TabsTrigger>
             <TabsTrigger value="ongoing">Ongoing Research</TabsTrigger>
-            <TabsTrigger value="awards">Awards & Recognition</TabsTrigger>
+            <TabsTrigger value="awards">Education</TabsTrigger>
           </TabsList>
 
           <TabsContent value="publications" className="space-y-6">

@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+import profilePhoto from "@/assets/profile-photo.jpeg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -22,14 +23,21 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10 text-center">
         <div className="animate-fade-in">
+          <div className="mb-8 flex justify-center">
+            <img 
+              src={profilePhoto} 
+              alt="Sarama Shehmir" 
+              className="w-48 h-48 rounded-full object-cover border-4 border-primary-foreground shadow-elegant"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6">
-            Your Name
+            Sarama Shehmir
           </h1>
           <p className="text-2xl md:text-3xl text-primary-foreground/90 mb-4">
-            AI Researcher & Engineer
+            PhD Candidate | AI Researcher | ML Engineer
           </p>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-            Advancing artificial intelligence through cutting-edge research and scalable ML systems
+            Specializing in Recommender Systems, Deep Learning, Generative AI, and Transformer-Based Models
           </p>
           <div className="flex gap-4 justify-center">
             <Button

@@ -2,20 +2,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const skillCategories = [
   {
-    category: "Deep Learning",
-    skills: ["PyTorch", "TensorFlow", "JAX", "Transformers", "Diffusion Models"]
+    category: "Deep Learning & AI",
+    skills: ["PyTorch", "TensorFlow", "Vision Transformers", "GANs", "LLMs", "Scikit-learn"]
   },
   {
-    category: "AI Research",
-    skills: ["NLP", "Computer Vision", "Reinforcement Learning", "LLMs", "Multimodal AI"]
+    category: "Programming Languages",
+    skills: ["Python", "R", "MATLAB", "C++", "SQL", "Shell Scripting"]
   },
   {
-    category: "ML Engineering",
-    skills: ["CUDA", "TensorRT", "ONNX", "Triton", "Ray", "Kubernetes"]
+    category: "Data Science & Analytics",
+    skills: ["Pandas", "NumPy", "SciPy", "Tableau", "PowerBI", "Seaborn", "Shiny"]
   },
   {
     category: "Tools & Platforms",
-    skills: ["Hugging Face", "Weights & Biases", "AWS SageMaker", "Docker", "Git"]
+    skills: ["Git", "AWS Cloud", "Google Cloud", "Linux", "Docker", "Bitbucket", "GitLab"]
+  },
+  {
+    category: "Specializations",
+    skills: ["Computer Vision", "NLP", "Recommender Systems", "Privacy Preservation", "Big Data"]
   }
 ];
 

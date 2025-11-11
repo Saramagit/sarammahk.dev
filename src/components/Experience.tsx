@@ -3,36 +3,58 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const experiences = [
   {
-    title: "Senior AI Research Engineer",
-    company: "AI Research Lab",
-    period: "2022 - Present",
-    description: "Leading research on large language models and multimodal AI systems. Publishing in top-tier conferences and deploying models at scale.",
+    title: "PhD Candidate - Electrical and Computer Engineering",
+    company: "Toronto Metropolitan University",
+    period: "2022 - 2026",
+    description: "Research focus on Recommender Systems, Deep Learning, Generative AI, LLMs, and Transformer-Based Models.",
     achievements: [
-      "Published 3 papers at NeurIPS and ICML on efficient transformers",
-      "Built distributed training pipeline reducing training time by 70%",
-      "Led team developing novel attention mechanism with 40% efficiency gains"
+      "Developed Transformer-based Network Intrusion Detection System (TNIDS) optimized for IoT environments",
+      "Built high-performance AI computing architecture using heterogeneous computing (CPU/GPU) for real-time intrusion detection",
+      "Advanced research in out-of-distribution detection for enhanced model robustness"
     ]
   },
   {
-    title: "Machine Learning Engineer",
-    company: "Tech Innovation Corp",
-    period: "2020 - 2022",
-    description: "Developed and deployed production ML systems for computer vision and NLP applications serving 10M+ users.",
+    title: "Professor - Machine Learning & Business Intelligence",
+    company: "Humber Polytechnic Institute (Longo Faculty of Business)",
+    period: "May 2023 - Current",
+    description: "Developed and delivered coursework for BIA 5302 and BIA 5402, focusing on foundational and advanced Machine Learning concepts.",
     achievements: [
-      "Architected real-time inference system handling 100k requests/sec",
-      "Implemented BERT-based model improving accuracy by 25%",
-      "Optimized model deployment reducing latency from 500ms to 50ms"
+      "Continuously updated ML curriculum to align with rapid AI advancements",
+      "Created innovative learning environment encouraging fresh ideas and unique student projects",
+      "Fostered critical thinking and practical application of ML concepts"
     ]
   },
   {
-    title: "AI Research Intern",
-    company: "University AI Lab",
-    period: "2019 - 2020",
-    description: "Conducted research on neural architecture search and automated machine learning under leading AI researchers.",
+    title: "Machine Learning Intern",
+    company: "PledgX",
+    period: "June 2023 - May 2024",
+    description: "Implemented Deep Neural Networks to enhance contractor selection by analyzing complex, multidimensional performance data.",
     achievements: [
-      "Co-authored paper on NAS algorithms accepted at CVPR",
-      "Developed PyTorch framework for automated hyperparameter tuning",
-      "Contributed to open-source AutoML library with 2k+ stars"
+      "Improved contractor selection accuracy by 20% using DNN-based peer grouping",
+      "Conducted statistical analyses on large datasets using R and Python",
+      "Created visualizations using Tableau and PowerBI to communicate key findings"
+    ]
+  },
+  {
+    title: "Part-Time Professor - Data Analytics",
+    company: "St. Clairs College",
+    period: "Mar 2022 - Dec 2023",
+    description: "Developed and delivered curricula for Advanced Statistics (R), Financial Analytics (Python), IT Service Management, and Ethics in Data Science.",
+    achievements: [
+      "Integrated flipped classroom techniques and industry-relevant datasets",
+      "Supervised Capstone Projects fostering collaborative problem-solving",
+      "Mentored new instructors within the department"
+    ]
+  },
+  {
+    title: "Junior Data Scientist",
+    company: "Hudson's Bay Company (The Bay)",
+    period: "March 2018 - March 2021",
+    description: "Developed scalable data analyses and machine learning models for retail operations.",
+    achievements: [
+      "Implemented ML regression model for time series prediction",
+      "Achieved 2% increase in quality and 10% reduction in operating costs",
+      "Utilized statistical techniques to develop prototypes and scalable analyses"
     ]
   }
 ];
