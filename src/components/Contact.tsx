@@ -12,11 +12,6 @@ const Contact = () => {
             or data science projects. Feel free to reach out!
           </p>
           
-          <div className="mb-8">
-            <p className="text-foreground/80 mb-2">Email: saramashehmir2020@gmail.com</p>
-            <p className="text-foreground/80">Phone: +1-226-200-3900</p>
-          </div>
-          
           <Button
             size="lg"
             className="bg-gradient-secondary hover:opacity-90 text-lg px-8"
