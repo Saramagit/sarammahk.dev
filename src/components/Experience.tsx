@@ -47,14 +47,14 @@ const experiences = [
     ]
   },
   {
-    title: "Part-Time Professor - Data Analytics",
-    company: "St. Clairs College",
-    period: "Mar 2022 - Dec 2023",
-    description: "Developed and delivered curricula for Advanced Statistics (R), Financial Analytics (Python), IT Service Management, and Ethics in Data Science.",
+    title: "Principal Consultant",
+    company: "PostBeyond Inc.",
+    period: "Sept 2017 - Feb 2018",
+    description: "Developed a hybrid recommender system for a client specializing in content distribution and employee social sharing.",
     achievements: [
-      "Integrated flipped classroom techniques and industry-relevant datasets",
-      "Supervised Capstone Projects fostering collaborative problem-solving",
-      "Mentored new instructors within the department"
+      "Built hybrid recommender system combining collaborative and content-based filtering",
+      "Specialized in content distribution and employee advocacy platforms",
+      "Implemented personalized content recommendation algorithms"
     ]
   },
   {
