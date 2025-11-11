@@ -34,7 +34,7 @@ const Contact = () => {
               <FileText size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/sarama-shehmir"
+              href="https://www.linkedin.com/in/saramakamal/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-muted hover:bg-gradient-secondary hover:text-secondary-foreground transition-all"
