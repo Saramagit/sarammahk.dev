@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     category: "Programming Languages",
-    skills: ["Python", "SQL", "Shell Scripting", "JavaScript"]
+    skills: ["Python", "Java", "SQL", "Shell Scripting", "JavaScript"]
   },
   {
     category: "Data Science & Analytics",
