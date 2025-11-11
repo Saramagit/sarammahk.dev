@@ -36,17 +36,6 @@ const experiences = [
     ]
   },
   {
-    title: "PhD Candidate - Electrical and Computer Engineering",
-    company: "Toronto Metropolitan University",
-    period: "2022 - 2026",
-    description: "Research focus on Recommender Systems, Deep Learning, Generative AI, LLMs, and Transformer-Based Models.",
-    achievements: [
-      "Developed Transformer-based Network Intrusion Detection System (TNIDS) optimized for IoT environments",
-      "Built high-performance AI computing architecture using heterogeneous computing (CPU/GPU) for real-time intrusion detection",
-      "Advanced research in out-of-distribution detection for enhanced model robustness"
-    ]
-  },
-  {
     title: "Junior Data Scientist",
     company: "Hudson's Bay Company (The Bay)",
     period: "March 2018 - March 2021",
