@@ -15,7 +15,7 @@ const skillCategories = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["N8n", "PostgreSQL", "Git", "AWS Cloud", "Google Cloud", "Linux", "Docker", "Bitbucket", "GitLab"]
+    skills: ["N8n", "PostgreSQL", "Git", "AWS Cloud", "Google Cloud", "Docker", "GitLab"]
   },
   {
     category: "Specializations",
