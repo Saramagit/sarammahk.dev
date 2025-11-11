@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-hero opacity-90" />
       
       <div className="container mx-auto px-6 relative z-10 text-center">
-        <div className="animate-fade-in">
+        <div className="animate-fade-in mb-16">
           <div className="mb-8 flex justify-center">
             <img 
               src={profilePhoto} 
@@ -39,7 +39,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-8">
             Specializing in Recommender Systems, Deep Learning, Generative AI, and Transformer-Based Models
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center mb-12">
             <Button
               onClick={() => scrollToSection("projects")}
               size="lg"
@@ -58,13 +58,15 @@ const Hero = () => {
           </div>
         </div>
         
-        <button
-          onClick={() => scrollToSection("about")}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-primary-foreground hover:text-secondary transition-colors"
-          aria-label="Scroll to about section"
-        >
-          <ArrowDown size={32} />
-        </button>
+        <div className="flex justify-center">
+          <button
+            onClick={() => scrollToSection("about")}
+            className="animate-bounce text-primary-foreground hover:text-secondary transition-colors"
+            aria-label="Scroll to about section"
+          >
+            <ArrowDown size={32} />
+          </button>
+        </div>
       </div>
     </section>
   );
