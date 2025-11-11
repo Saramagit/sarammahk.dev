@@ -14,17 +14,6 @@ const experiences = [
     ]
   },
   {
-    title: "PhD Candidate - Electrical and Computer Engineering",
-    company: "Toronto Metropolitan University",
-    period: "2022 - 2026",
-    description: "Research focus on Recommender Systems, Deep Learning, Generative AI, LLMs, and Transformer-Based Models.",
-    achievements: [
-      "Developed Transformer-based Network Intrusion Detection System (TNIDS) optimized for IoT environments",
-      "Built high-performance AI computing architecture using heterogeneous computing (CPU/GPU) for real-time intrusion detection",
-      "Advanced research in out-of-distribution detection for enhanced model robustness"
-    ]
-  },
-  {
     title: "Professor - Machine Learning & Business Intelligence",
     company: "Humber Polytechnic Institute (Longo Faculty of Business)",
     period: "May 2023 - Current",
@@ -47,14 +36,14 @@ const experiences = [
     ]
   },
   {
-    title: "Principal Consultant",
-    company: "PostBeyond Inc.",
-    period: "Sept 2017 - Feb 2018",
-    description: "Developed a hybrid recommender system for a client specializing in content distribution and employee social sharing.",
+    title: "PhD Candidate - Electrical and Computer Engineering",
+    company: "Toronto Metropolitan University",
+    period: "2022 - 2026",
+    description: "Research focus on Recommender Systems, Deep Learning, Generative AI, LLMs, and Transformer-Based Models.",
     achievements: [
-      "Built hybrid recommender system combining collaborative and content-based filtering",
-      "Specialized in content distribution and employee advocacy platforms",
-      "Implemented personalized content recommendation algorithms"
+      "Developed Transformer-based Network Intrusion Detection System (TNIDS) optimized for IoT environments",
+      "Built high-performance AI computing architecture using heterogeneous computing (CPU/GPU) for real-time intrusion detection",
+      "Advanced research in out-of-distribution detection for enhanced model robustness"
     ]
   },
   {
@@ -66,6 +55,17 @@ const experiences = [
       "Implemented ML regression model for time series prediction",
       "Achieved 2% increase in quality and 10% reduction in operating costs",
       "Utilized statistical techniques to develop prototypes and scalable analyses"
+    ]
+  },
+  {
+    title: "Principal Consultant",
+    company: "PostBeyond Inc.",
+    period: "Sept 2017 - Feb 2018",
+    description: "Developed a hybrid recommender system for a client specializing in content distribution and employee social sharing.",
+    achievements: [
+      "Built hybrid recommender system combining collaborative and content-based filtering",
+      "Specialized in content distribution and employee advocacy platforms",
+      "Implemented personalized content recommendation algorithms"
     ]
   }
 ];
