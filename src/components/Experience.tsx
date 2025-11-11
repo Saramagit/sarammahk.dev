@@ -36,6 +36,18 @@ const experiences = [
     ]
   },
   {
+    title: "Graduate Research & Teaching Assistant",
+    company: "Toronto Metropolitan University - Computer Science Department",
+    period: "Sept 2016 - Current",
+    description: "Research-focused teaching role involving advanced data systems, database architecture, and applied machine learning coursework. Conducting research in big data analytics and mentoring graduate-level projects.",
+    achievements: [
+      "Conducted data cleaning and analysis research using HDFS, PIG, and R for big data systems",
+      "Designed and delivered lab-based curriculum for advanced CS courses including Big Data Systems and Database Systems",
+      "Mentored graduate students on research methodologies and academic progress in AI/ML domains",
+      "Collaborated on research initiatives exploring distributed systems and data architecture"
+    ]
+  },
+  {
     title: "Junior Data Scientist",
     company: "Hudson's Bay Company (The Bay)",
     period: "March 2018 - March 2021",
