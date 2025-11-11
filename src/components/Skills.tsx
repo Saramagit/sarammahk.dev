@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const skillCategories = [
   {
     category: "Deep Learning & AI",
-    skills: ["PyTorch", "TensorFlow", "Vision Transformers", "GANs", "LLMs", "Scikit-learn"]
+    skills: ["PyTorch", "TensorFlow", "RAG", "CAG", "LLMs", "Scikit-learn"]
   },
   {
     category: "Programming Languages",
