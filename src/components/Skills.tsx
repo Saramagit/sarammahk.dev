@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     category: "Programming Languages",
-    skills: ["Python", "R", "MATLAB", "C++", "SQL", "Shell Scripting"]
+    skills: ["Python", "SQL", "Shell Scripting", "JavaScript"]
   },
   {
     category: "Data Science & Analytics",
@@ -15,7 +15,7 @@ const skillCategories = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "AWS Cloud", "Google Cloud", "Linux", "Docker", "Bitbucket", "GitLab"]
+    skills: ["N8n", "PostgreSQL", "Git", "AWS Cloud", "Google Cloud", "Linux", "Docker", "Bitbucket", "GitLab"]
   },
   {
     category: "Specializations",
