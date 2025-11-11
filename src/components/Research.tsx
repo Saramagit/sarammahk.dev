@@ -6,31 +6,49 @@ import { ExternalLink, FileText, Award } from "lucide-react";
 const Research = () => {
   const publications = [
     {
-      title: "Enhancing the Shopping Experience in E-Commerce: A Path to Improvement–Buy the Best",
-      authors: "Shehmir, S, M Nazar, AA Zaveri, N Sami, R Mashood, N Faisal, A Waqas, et al.",
-      venue: "Bulletin of Social Informatics Theory and Application",
-      year: "2024",
-      citations: 0,
+      title: "LLM4Rec: A Comprehensive Survey on the Integration of Large Language Models in Recommender Systems—Approaches, Applications and Challenges",
+      authors: "S Shehmir, R Kashef",
+      venue: "Future Internet 2025: Deep Learning in Recommender Systems",
+      year: "2025",
+      citations: 5,
       link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
-      tags: ["E-Commerce", "Recommender Systems", "User Experience"]
+      tags: ["LLMs", "Recommender Systems", "Survey", "Deep Learning"]
     },
     {
-      title: "A Group Recommender System for Article Recommendation Using Matrix Factorization",
-      authors: "Shehmir, S.",
-      venue: "Toronto Metropolitan University",
-      year: "2021",
-      citations: 0,
+      title: "Intrusion Detection: Architecture, Classification Heads, and Transformer",
+      authors: "N Ibrahim, S Shehmir, A Yadav, R Kashef",
+      venue: "Proceedings of IEMTRONICS 2024",
+      year: "2025",
+      citations: 2,
       link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
-      tags: ["Recommender Systems", "Matrix Factorization", "NLP"]
+      tags: ["Intrusion Detection", "Transformers", "IoT", "Cybersecurity"]
     },
     {
-      title: "Transformer-based Network Intrusion Detection System for IoT",
-      authors: "Shehmir, S.",
-      venue: "Research in Progress",
+      title: "Navigating the Cyber Threat Landscape: An In-Depth Analysis of Attack Detection within IoT Ecosystems",
+      authors: "RK Samar Aboulela, Nourhan Ibrahim, Sarama Shehmir, Aman Yadav",
+      venue: "AI 5 (2), 704-732",
       year: "2024",
-      citations: 0,
-      link: "#",
-      tags: ["Transformers", "Cybersecurity", "IoT", "Deep Learning"]
+      citations: 16,
+      link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
+      tags: ["Cyber Threat", "IoT", "Attack Detection", "Deep Learning"]
+    },
+    {
+      title: "Impact of Covid-19 on Agile Software Development",
+      authors: "AA Zaveri, J Jaafar, E Yafi, S Shehmir",
+      venue: "Board Diversity and Corporate Governance, 69-84",
+      year: "2024",
+      citations: 1,
+      link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
+      tags: ["Agile", "Software Development", "COVID-19"]
+    },
+    {
+      title: "AIRA: An Intelligent Recommendation Agent Application for Movies",
+      authors: "AA Zaveri, R Mashood, S Shehmir, M Parveen, N Sami, M Nazar",
+      venue: "Journal of Informatics and Web Engineering 2 (2), 72-89",
+      year: "2023",
+      citations: 15,
+      link: "https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en",
+      tags: ["Recommender Systems", "Intelligent Agents", "Movies", "AI"]
     }
   ];
 
