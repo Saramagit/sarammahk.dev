@@ -3,6 +3,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const experiences = [
   {
+    title: "Artificial Intelligence Researcher",
+    company: "Leni (Internship)",
+    period: "Oct 2025 - Present",
+    description: "Working on the development of Leni, an AI-powered real estate analytics assistant designed to automate insight generation and decision making for multifamily and commercial properties.",
+    achievements: [
+      "Building AI-powered analytics assistant for real estate market analysis",
+      "Implementing automated insight generation for property investment decisions",
+      "Working with N8n, PostgreSQL, and advanced AI technologies"
+    ]
+  },
+  {
     title: "PhD Candidate - Electrical and Computer Engineering",
     company: "Toronto Metropolitan University",
     period: "2022 - 2026",
